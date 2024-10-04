@@ -1,11 +1,17 @@
+@font-face {
+    font-family: 'Young-Serif';
+    src: local(/recipe-page-main/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
 body {
     background-color: wheat;
+    font-family: Young-Serif;
 }
 
 .recipe_container {
     background-color: white;
-    width: 500px;
-    height: 1200px;
+    width: 575px;
+    height: 1400px;
     border-radius: 5px;
     padding-left: 20px;
     padding-right: 20px;
@@ -17,7 +23,7 @@ body {
 }
 
 .omelette_pic {
-    width: 450px;
+    width: 550px;
     border-radius: 5px;
     margin-top: 20px;
 }
@@ -28,4 +34,70 @@ body {
 
 .header h2 {
     text-align: center;
+}
+
+.prep {
+    background-color:  hsl(335, 60%, 96%);
+    padding: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.prep h4 {
+    padding-left: 25px;
+    color: hsl(332, 51%, 32%);
+}
+
+.prep li {
+    padding-bottom: 10px;
+}
+
+.ingredients {
+    border-bottom: 1px solid black;
+}
+
+.ingredients h3 {
+    padding-left: 25px;
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredients li {
+    padding-bottom: 10px;
+}
+
+.instructions {
+    border-bottom: 1px solid black;
+}
+
+.instructions h3 {
+    padding-left: 25px;
+    color: hsl(14, 45%, 36%);
+}
+
+.instructions li {
+    padding-bottom: 10px;
+}
+
+.nutrition h3 {
+    padding-left: 25px;
+    color: hsl(14, 45%, 36%);
+}
+
+.nut_top {
+    padding-left: 25px;
+}
+
+.nut {
+    padding-left: 40px;
+}
+
+.nut_spacing {
+    
+}
+
+.right {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
 }
