@@ -89,15 +89,29 @@ body {
     padding-left: 25px;
 }
 
-.nut {
+/* .nut {
     padding-left: 40px;
-}
+} */
 
 .nut_spacing {
-    
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.nut {
+    flex: 1;
 }
 
 .right {
     color: hsl(14, 45%, 36%);
     font-weight: bold;
+}
+
+.nut_spacing:last-child {
+    border-bottom: none;
 }
