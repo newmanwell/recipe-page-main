@@ -13,16 +13,19 @@
 
 body {
     background-color: wheat;
+    width: auto;
+}
+
+main {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: auto;
-    }
+}
 
 .recipe_container {
     background-color: white;
     width: 575px;
-    height: 1550px;
+    height: auto;
     border-radius: 5px;
     padding-left: 20px;
     padding-right: 20px;
@@ -130,6 +133,16 @@ body {
 }
 
 footer {
-    position: static;
-    bottom: 0;
+    text-align: center;
+    margin-top: 25px;
+}
+
+footer span {
+    border: 4px groove gray;
+    background-color: aliceblue;
+    padding-left: 10px;
+}
+
+footer a {
+    padding: 10px;
 }
