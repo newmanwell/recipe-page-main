@@ -146,3 +146,22 @@ footer span {
 footer a {
     padding: 10px;
 }
+
+@media (max-width: 600px) {
+    body {
+        width: 100%;
+    }
+
+    .recipe_container {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+        display: flex;
+    }
+
+    .omelette_pic {
+        width: 250px;
+    }
+}
